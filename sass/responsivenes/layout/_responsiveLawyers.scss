@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1087px) {
+  .lawyers {
+    background-color: $color-bg;
+    &_top {
+      display: flex;
+      margin-bottom: 40px;
+    }
+    &_primary {
+      margin: 15px 40px 0;
+    }
+    &_span_box {
+      justify-content: center;
+      display: flex;
+      margin-bottom: 2.5rem;
+    }
+    &_carousel {
+      &_box {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .card {
+    &-body_top {
+      margin-bottom: 10px;
+    }
+    &-star {
+      margin: -5px 0 0 11px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .lawyers {
+    background-color: $color-bg;
+    &_top {
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+    &_primary {
+      margin: 15px 40px 0;
+    }
+    &_span_box {
+      // justify-content: center;
+      // display: flex;
+      // margin-bottom: 2.5rem;
+      visibility: hidden;
+    }
+    &_carousel {
+      &_box {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .card {
+    &-body_top {
+      margin-bottom: 10px;
+    }
+    &-star {
+      margin: -5px 0 0 11px;
+    }
+  }
+}

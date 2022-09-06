@@ -1,0 +1,615 @@
+@media only screen and (max-width: 1087px) {
+  // .navbar {
+  //   &_text_icon {
+  //     color: white !important;
+  //   }
+  //   &_logo_text {
+  //     color: white !important;
+  //     font-family: "Cantata One", serif;
+  //     font-size: 1.3rem;
+  //   }
+  //   &_primary {
+  //     font-family: "Poppins", serif;
+  //     font-weight: 500;
+  //     font-size: 1rem;
+  //     padding-right: 0;
+  //     padding-left: 0;
+  //     position: relative;
+  //     color: white !important;
+
+  //     &::after {
+  //       content: "";
+  //       position: absolute;
+  //       left: 0;
+  //       bottom: 0;
+  //       width: 0;
+  //       height: 3px;
+  //       transition: all 0.3s;
+  //       background-color: $color_official;
+  //     }
+  //     &:hover::after {
+  //       width: 100%;
+  //     }
+  //     &_2 {
+  //       font-family: "Poppins", serif;
+  //       font-weight: 500;
+  //       font-size: 1rem;
+  //       color: white !important;
+  //       background-color: $color-official;
+  //       border-radius: 8px;
+  //     }
+  //   }
+  // }
+
+  .header {
+    &_primary {
+      font-size: 2.6rem;
+      font-weight: 500;
+      margin-bottom: 3rem;
+      letter-spacing: 3px;
+    }
+    &_secondary {
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+    &_link {
+      font-size: 0.7rem;
+    }
+  }
+
+  .text_primary {
+    color: white;
+    font-family: "Cantata One", serif;
+    letter-spacing: 0.1rem;
+    &_2 {
+      color: $color-bg;
+      font-weight: 400;
+      font-family: "Cantata One", serif;
+      font-size: 32px;
+    }
+  }
+  .text_secondary {
+    color: white;
+    font-family: "Cantata One", serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.04rem;
+    &_2 {
+      color: black;
+      font-weight: 600;
+    }
+    &_3 {
+      font-size: 12px;
+    }
+  }
+  .text_thirdary {
+    margin: 1.4rem 0 0 1rem;
+    color: $color-official;
+    font-family: "Cantata One", serif;
+    font-size: 1.2rem;
+  }
+  .text_number {
+    font-family: "Cantata One", serif;
+    color: $color-official;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $color-official;
+  }
+
+  .box_primary {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    &_2 {
+      color: white;
+      line-height: 15px;
+    }
+  }
+  .box_secondary {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-secondary2;
+    &_2 {
+      color: $color-secondary;
+    }
+  }
+
+  .card {
+    text-align: center;
+    &_primary {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      font-weight: 900;
+      color: black;
+    }
+    &_secondary {
+      font-family: "Nunito", sans-serif;
+      line-height: 25px;
+      font-size: 12px;
+      color: #9999;
+    }
+    &_thirdary {
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      color: #000;
+      font-weight: 600;
+      line-height: 5px;
+    }
+  }
+  .footer {
+    &_icon {
+      font-size: 33px;
+      margin-right: 29px;
+      color: white;
+    }
+
+    &_secondary {
+      font-size: 20px;
+      &_2 {
+        font-size: 20px;
+        color: $color-official;
+        margin-bottom: 0.4rem;
+      }
+      &_3 {
+        padding: 0;
+        margin: 0;
+      }
+      &-right {
+        margin-bottom: 0.3rem;
+        line-height: 26px;
+      }
+    }
+
+    &_number {
+      font-family: "Cantata One", serif;
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: $color-secondary;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    //   &_text_icon {
+    //     color: white !important;
+    //   }
+    &_logo_text {
+      font-size: 1.2rem;
+    }
+    &_primary {
+      //     font-family: "Poppins", serif;
+      //     font-weight: 500;
+      //     font-size: 1rem;
+      //     padding-right: 0;
+      //     padding-left: 0;
+      //     position: relative;
+      //     color: white !important;
+
+      //     &::after {
+      //       content: "";
+      //       position: absolute;
+      //       left: 0;
+      //       bottom: 0;
+      //       width: 0;
+      //       height: 3px;
+      //       transition: all 0.3s;
+      //       background-color: $color_official;
+      //     }
+      //     &:hover::after {
+      //       width: 100%;
+      //     }
+      &_2 {
+        font-size: 0.8rem;
+        padding: 4px;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .header {
+    color: white;
+    &_primary {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      letter-spacing: 2.5px;
+      line-height: 2.8rem;
+    }
+    &_secondary {
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+    &_link {
+      text-decoration: none;
+      color: white;
+      font-size: 0.7rem;
+      // o'cir
+    }
+  }
+
+  .text_primary {
+    color: white;
+    font-family: "Cantata One", serif;
+    letter-spacing: 0.1rem;
+    &_2 {
+      color: $color-bg;
+      font-weight: 400;
+      font-family: "Cantata One", serif;
+      font-size: 32px;
+    }
+  }
+  .text_secondary {
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    color: $color-secondary;
+    &_2 {
+      color: black;
+      font-weight: 600;
+    }
+    &_3 {
+      font-size: 12px;
+    }
+  }
+  .text_thirdary {
+    margin: 1.3rem 0 0 1rem;
+    font-size: 1.1rem;
+  }
+  .text_number {
+    font-family: "Cantata One", serif;
+    color: $color-official;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $color-official;
+  }
+
+  .box_primary {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    &_2 {
+      color: white;
+      line-height: 15px;
+    }
+  }
+  .box_secondary {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-secondary2;
+    &_2 {
+      color: $color-secondary;
+    }
+  }
+
+  .card {
+    text-align: center;
+    &_primary {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      font-weight: 900;
+      color: black;
+    }
+    &_secondary {
+      font-family: "Nunito", sans-serif;
+      line-height: 25px;
+      font-size: 12px;
+      color: #9999;
+    }
+    &_thirdary {
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      color: #000;
+      font-weight: 600;
+      line-height: 5px;
+    }
+  }
+  .footer {
+    &_icon {
+      font-size: 28px;
+      margin: 0 14px;
+      color: white;
+    }
+
+    &_secondary {
+      font-size: 20px;
+      &_2 {
+        font-size: 20px;
+        color: $color-official;
+        margin-bottom: 0.4rem;
+      }
+      &_3 {
+        padding: 0;
+        margin: 0;
+      }
+      &-right {
+        margin-bottom: 0.3rem;
+        line-height: 26px;
+      }
+    }
+
+    &_number {
+      font-family: "Cantata One", serif;
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: $color-secondary;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    //   &_text_icon {
+    //     color: white !important;
+    //   }
+    &_logo_text {
+      font-size: 1.1rem;
+    }
+    &_primary {
+      //     font-family: "Poppins", serif;
+      //     font-weight: 500;
+      //     font-size: 1rem;
+      //     padding-right: 0;
+      //     padding-left: 0;
+      //     position: relative;
+      //     color: white !important;
+
+      //     &::after {
+      //       content: "";
+      //       position: absolute;
+      //       left: 0;
+      //       bottom: 0;
+      //       width: 0;
+      //       height: 3px;
+      //       transition: all 0.3s;
+      //       background-color: $color_official;
+      //     }
+      //     &:hover::after {
+      //       width: 100%;
+      //     }
+      &_2 {
+        font-size: 0.8rem;
+        padding: 4px;
+        border-radius: 8px;
+      }
+    }
+  }
+  .header {
+    &_primary {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 2px;
+      line-height: 2rem;
+    }
+    &_secondary {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+    &_link {
+      font-size: 0.7rem;
+      // o'cir
+    }
+  }
+
+  .text_primary {
+    color: white;
+    font-family: "Cantata One", serif;
+    letter-spacing: 0.1rem;
+    &_2 {
+      color: $color-bg;
+      font-weight: 400;
+      font-family: "Cantata One", serif;
+      font-size: 28px;
+    }
+  }
+  .text_secondary {
+    color: white;
+    font-family: "Cantata One", serif;
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    color: $color-secondary;
+    &_2 {
+      color: black;
+      font-weight: 600;
+    }
+    &_3 {
+      font-size: 12px;
+    }
+  }
+  .text_thirdary {
+    margin: 1.3rem 0 0 1rem;
+    font-size: 1.1rem;
+  }
+  .text_number {
+    font-family: "Cantata One", serif;
+    color: $color-official;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $color-official;
+  }
+
+  .box_primary {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    &_2 {
+      color: white;
+      line-height: 15px;
+    }
+  }
+  .box_secondary {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    color: $color-secondary2;
+    &_2 {
+      color: $color-secondary;
+    }
+  }
+
+  .card {
+    text-align: center;
+    &_primary {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      font-weight: 900;
+      color: black;
+    }
+    &_secondary {
+      font-family: "Nunito", sans-serif;
+      line-height: 25px;
+      font-size: 12px;
+      color: #9999;
+    }
+    &_thirdary {
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      color: #000;
+      font-weight: 600;
+      line-height: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  // .navbar {
+  //   &_text_icon {
+  //     color: white !important;
+  //   }
+  //   &_logo_text {
+  //     color: white !important;
+  //     font-family: "Cantata One", serif;
+  //     font-size: 1.3rem;
+  //   }
+  //   &_primary {
+  //     font-family: "Poppins", serif;
+  //     font-weight: 500;
+  //     font-size: 1rem;
+  //     padding-right: 0;
+  //     padding-left: 0;
+  //     position: relative;
+  //     color: white !important;
+
+  //     &::after {
+  //       content: "";
+  //       position: absolute;
+  //       left: 0;
+  //       bottom: 0;
+  //       width: 0;
+  //       height: 3px;
+  //       transition: all 0.3s;
+  //       background-color: $color_official;
+  //     }
+  //     &:hover::after {
+  //       width: 100%;
+  //     }
+  //     &_2 {
+  //       font-family: "Poppins", serif;
+  //       font-weight: 500;
+  //       font-size: 1rem;
+  //       color: white !important;
+  //       background-color: $color-official;
+  //       border-radius: 8px;
+  //     }
+  //   }
+  // }
+
+  .header {
+    &_primary {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+      line-height: 1.8rem;
+    }
+    &_secondary {
+      font-size: 0.6rem;
+      margin-bottom: 0.5rem;
+    }
+    &_link {
+      font-size: 0.7rem;
+      // o'cir
+    }
+  }
+
+  .text_primary {
+    letter-spacing: 0.1rem;
+    &_2 {
+      color: $color-bg;
+      font-weight: 400;
+      font-size: 25px;
+    }
+  }
+  .text_secondary {
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+    &_2 {
+      color: black;
+      font-weight: 600;
+    }
+    &_3 {
+      font-size: 12px;
+    }
+  }
+  .text_thirdary {
+    margin: 0 0 0 1rem;
+    font-size: 1rem;
+  }
+  .text_number {
+    font-family: "Cantata One", serif;
+    color: $color-official;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $color-official;
+  }
+
+  .box_primary {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    &_2 {
+      font-size: 10px;
+      line-height: 15px;
+      margin-bottom: 0.3rem;
+    }
+  }
+  .box_secondary {
+    font-size: 11px;
+    line-height: 15px;
+    &_2 {
+      font-size: 9px;
+      line-height: 14px;
+      margin-bottom: 0.2rem;
+    }
+  }
+
+  .card {
+    text-align: center;
+    &_primary {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      font-weight: 900;
+      color: black;
+    }
+    &_secondary {
+      font-family: "Nunito", sans-serif;
+      line-height: 25px;
+      font-size: 12px;
+      color: #9999;
+    }
+    &_thirdary {
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      color: #000;
+      font-weight: 600;
+      line-height: 5px;
+    }
+  }
+}

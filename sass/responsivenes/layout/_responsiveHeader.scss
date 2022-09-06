@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1087px) {
+  .header {
+    &_image {
+      width: 19rem;
+      height: 28rem;
+    }
+    &_wrap {
+      position: absolute;
+      top: 12rem;
+      left: 13rem;
+      padding: 0 15rem 0 0;
+    }
+    &_span {
+      background-color: $color-official;
+      margin: 0 0.7rem;
+      height: 5rem;
+      width: 3px;
+      &_box {
+        position: absolute;
+        display: flex;
+        top: 39rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    &_image {
+      width: 17rem;
+      height: 26rem;
+    }
+    &_wrap {
+      position: absolute;
+      top: 12rem;
+      left: 9rem;
+      padding: 0 2rem 0 0;
+    }
+    &_span {
+      margin: 0 0.7rem;
+      height: 5rem;
+      width: 3px;
+      &_box {
+        top: 37rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    &_image {
+      width: 15rem;
+      height: 20rem;
+    }
+    &_wrap {
+      top: 9rem;
+      left: 7rem;
+      padding: 0 1rem 0 0;
+    }
+    &_span {
+      background-color: $color-official;
+      margin: 0 0.7rem;
+      height: 5rem;
+      width: 3px;
+      &_box {
+        position: absolute;
+        display: flex;
+        top: 28rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    &_image {
+      width: 12rem;
+      height: 17rem;
+    }
+    &_wrap {
+      top: 6.5rem;
+      left: 4.5rem;
+      padding: 0 1rem 0 0;
+    }
+    &_span {
+      background-color: $color-official;
+      margin: 0 0.7rem;
+      height: 5rem;
+      width: 3px;
+      &_box {
+        position: absolute;
+        display: flex;
+        top: 22rem;
+      }
+    }
+  }
+}

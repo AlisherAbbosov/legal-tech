@@ -1,0 +1,36 @@
+.question_input {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f0f04d;
+  border-radius: 8px;
+  padding: 8px 171px 8px 40px;
+  color: #fff;
+  margin: 0px 25px 17.6px 0;
+  letter-spacing: 1px;
+  border: none;
+  &::placeholder {
+    color: $color-secondary;
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.question_textarea {
+  font-size: 1.05rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f0f04d;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 17px 40px;
+  letter-spacing: 1px;
+  &::placeholder {
+    color: $color-secondary;
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}

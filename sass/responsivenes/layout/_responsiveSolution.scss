@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1087px) {
+  .solution {
+    &_text_box {
+      padding: 0 4rem;
+    }
+    &_primary {
+      margin-bottom: 2.5rem;
+    }
+    &_span_box {
+      justify-content: center;
+      display: flex;
+      margin-bottom: 2.5rem;
+    }
+    &_box {
+      display: flex;
+      justify-content: space-between;
+      &_boxes {
+        display: block;
+        padding: 0.5rem;
+        background-color: $color-div-bg;
+        text-align: center;
+        box-shadow: 5px 5px 4px rgba(44, 44, 44, 0.3);
+        border-radius: 6px;
+      }
+    }
+  }
+  .span {
+    background-color: $color-official;
+    margin: 0 0.9rem;
+    height: 5rem;
+    width: 2px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .solution {
+    &_text_box {
+      padding: 0;
+    }
+    &_primary {
+      margin-bottom: 1.8rem;
+    }
+    &_span_box {
+      margin-bottom: 2rem;
+    }
+    &_box {
+      margin: 0 3rem;
+      &_boxes {
+        margin: 1rem 0;
+        padding: 0.5rem;
+      }
+    }
+  }
+  .span {
+    background-color: $color-official;
+    margin: 0 0.9rem;
+    height: 5rem;
+    width: 2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .solution {
+    &_text_box {
+      padding: 0;
+    }
+    &_primary {
+      margin-bottom: 1.1rem;
+    }
+    &_span_box {
+      margin-bottom: 1.5rem;
+    }
+    &_box {
+      margin: 0 3rem;
+      &_boxes {
+        margin: 0.7rem 0;
+        padding: 0.5rem;
+      }
+    }
+  }
+  .span {
+    background-color: $color-official;
+    margin: 0 0.9rem;
+    height: 4.5rem;
+    width: 2px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .solution {
+    &_text_box {
+      padding: 0;
+    }
+    &_primary {
+      margin-bottom: 1.1rem;
+    }
+    &_span_box {
+      margin-bottom: 1.5rem;
+    }
+    &_box {
+      margin: 0 1rem;
+      &_boxes {
+        margin: 0.7rem 0;
+        padding: 0.5rem;
+      }
+    }
+  }
+  .span {
+    background-color: $color-official;
+    margin: 0 0.9rem;
+    height: 4.5rem;
+    width: 2px;
+  }
+}

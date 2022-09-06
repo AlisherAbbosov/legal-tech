@@ -1,0 +1,40 @@
+.questions {
+  background-image: linear-gradient(
+      360deg,
+      #1c1b1e 3.15%,
+      rgba(28, 27, 30, 0.42) 56.66%,
+      #1c1b1e 101.71%
+    ),
+    url("/sass/images/questions.jpg");
+  background-size: cover;
+  position: relative;
+  background-color: $color-bg;
+  &_primary {
+    margin-top: 2.6rem;
+    text-align: center;
+  }
+  &_link_box_top {
+    align-items: end;
+    margin-top: 1.3rem;
+    margin-bottom: 19px;
+  }
+  &_boxes {
+    // align-items: flex-start;
+    background-color: $color-bg;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 38px 58px;
+    align-items: center;
+    &_data {
+      margin-left: -8rem;
+      text-align: center;
+    }
+  }
+  &_contetn {
+    margin-left: -3rem;
+  }
+  &_link_box {
+    text-align: center;
+  }
+}

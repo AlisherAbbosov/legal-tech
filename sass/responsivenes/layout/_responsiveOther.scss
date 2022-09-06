@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1087px) {
+  .other {
+    &_text_box {
+      margin-bottom: 27px;
+      padding-right: 17rem;
+    }
+    &_conteiner {
+      height: 28rem;
+      &_2 {
+        height: 27rem;
+      }
+    }
+    &_wrap_boxes {
+      padding: 18px 24px 22px;
+      &_box {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &_images_box {
+      top: -1.2rem;
+      left: -11rem;
+      padding: 3rem 2rem 3rem 10rem;
+      &_2 {
+        padding: 3rem 8rem 3rem 3rem;
+        top: 13.2rem;
+        left: 13rem;
+      }
+      &_img {
+        height: 125px;
+        width: 125px;
+      }
+    }
+    &_img {
+      height: 280px;
+      width: 280px;
+      &_box {
+        top: -4rem;
+        right: 0rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .other {
+    &_text_box {
+      margin-bottom: 18px;
+      padding-right: 13rem;
+    }
+    &_secondary {
+      margin-bottom: -0.3rem;
+    }
+    &_conteiner {
+      height: 28rem;
+      &_2 {
+        height: 23rem;
+      }
+    }
+    &_wrap_boxes {
+      padding: 11px 16px 14px;
+      &_box {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &_images_box {
+      top: -0.7rem;
+      left: -11rem;
+      padding: 3rem 2rem 2.3rem 11rem;
+      border: 6px solid #b08e441a;
+      &_2 {
+        padding: 2.5rem 9rem 3rem 3rem;
+        top: 11.2rem;
+        left: 11rem;
+      }
+      &_img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    &_img {
+      height: 240px;
+      width: 250px;
+      &_box {
+        top: -4rem;
+        right: 0rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  .other {
+    &_container {
+      padding: 0 6rem;
+    }
+    &_text_box {
+      margin-bottom: 18px;
+      padding-right: 5rem;
+    }
+    &_secondary {
+      margin-bottom: -0.3rem;
+    }
+    &_conteiner {
+      height: 28rem;
+      &_2 {
+        height: 0;
+        margin: -5rem 0 0 2rem;
+      }
+    }
+    &_wrap_boxes {
+      position: relative;
+      padding: 11px 16px 14px;
+      z-index: 1000;
+      &_box {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &_images_box {
+      visibility: hidden;
+      &_2 {
+        visibility: hidden;
+      }
+      &_img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    &_img {
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      &_box {
+        top: -31rem;
+        right: 0rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .other {
+    &_container {
+      padding: 0 2rem;
+    }
+    &_text_box {
+      margin-bottom: 18px;
+      padding-right: 0;
+    }
+    &_secondary {
+      margin-bottom: -0.3rem;
+    }
+    &_conteiner {
+      height: 25rem;
+      &_2 {
+        height: 0;
+        margin: -5rem 0 0 1rem;
+      }
+    }
+    &_wrap_boxes {
+      position: relative;
+      padding: 11px 16px 14px;
+      z-index: 1000;
+      &_box {
+        margin-bottom: 1.2rem;
+      }
+    }
+    &_images_box {
+      visibility: hidden;
+      &_2 {
+        visibility: hidden;
+      }
+      &_img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    &_img {
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      &_box {
+        top: -31rem;
+        right: 0rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .other {
+    &_container {
+      padding: 0 1rem;
+    }
+    &_text_box {
+      margin-bottom: 18px;
+      padding-right: 0;
+    }
+    &_secondary {
+      margin-bottom: -0.3rem;
+    }
+    &_conteiner {
+      height: 27rem;
+      &_2 {
+        height: 0;
+        margin: -5rem 0 0 1rem;
+      }
+    }
+    &_wrap_boxes {
+      position: relative;
+      padding: 11px 16px 14px;
+      z-index: 1000;
+      &_box {
+        margin-bottom: 1.2rem;
+      }
+    }
+    &_images_box {
+      visibility: hidden;
+      &_2 {
+        visibility: hidden;
+      }
+      &_img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    &_img {
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      &_box {
+        top: -31rem;
+        right: 0rem;
+      }
+    }
+  }
+}

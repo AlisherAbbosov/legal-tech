@@ -1,0 +1,133 @@
+.header_link {
+  display: inline-block;
+  transition: all 0.4s;
+  animation: header_link 1.5s ease-in-out infinite alternate;
+}
+.header_link:hover {
+  color: white;
+}
+
+#arrow {
+  animation: arrow 1s ease-in-out infinite alternate;
+  width: 1.1rem;
+  margin-left: 0.3rem;
+}
+@keyframes arrow {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.5rem);
+  }
+}
+
+@keyframes header_link {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffb612,
+      0 0 10px #ffb612, 0 0 20px #ffb612, 0 0 20px #ffb612,
+      0 0 20px rgba(255, 182, 18, 0.87);
+  }
+
+  100% {
+    text-shadow: 0 0 5px #33b5e5, 0 0 10px #33b5e5, 0 0 15px #33b5e5,
+      0 0 20px rgba(51, 181, 229, 0.87), 0 0 15px #33b5e5,
+      0 0 20px rgba(51, 181, 229, 0.87), 0 0 20px rgba(51, 181, 229, 0.87),
+      0 0 20px rgba(51, 181, 229, 0.87);
+  }
+}
+
+.news_box_link {
+  background: $color-bg;
+  border-radius: 8px;
+  font-family: "Cantata One", serif;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0.2rem 1.5rem;
+  text-decoration: none;
+  border: none;
+}
+
+.news_link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: $color-official;
+  color: white;
+  padding: 0.9rem 1.6rem;
+  border-radius: 8px;
+  color: $color-white;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-0.2rem);
+    color: white;
+    box-shadow: 0 0 0 0.1rem rgba(225, 225, 225, 15%);
+  }
+  &:active {
+    transform: translateY(-0.1rem);
+  }
+}
+
+.questions_top_link {
+  background-color: $color_official;
+  border-radius: 8px 8px;
+  z-index: 1000;
+  margin-right: 0;
+  &_2 {
+    background-color: white;
+    z-index: 5;
+    border-radius: 0 8px 8px;
+    margin-left: -1rem;
+  }
+}
+
+.questions_boxes_link {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  background-color: $color-official;
+  border-radius: 4px;
+  color: white;
+  padding: 0.2rem;
+  // line-height: 19px;
+}
+
+.questions_link {
+  padding: 0.5rem 7rem;
+}
+
+.other_link {
+  display: inline-block;
+  font-family: "Cantata One", serif;
+  font-size: 20px;
+  color: #b08e44;
+  padding: 5px 7px;
+  border: 3px solid #b08e44;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+  &:hover {
+    transform: translateY(-0.1rem);
+    text-decoration: none;
+    color: #b08e44;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 25%);
+    // border: none;
+  }
+  &_2 {
+    background-color: #b08e44;
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+}
+// #link {
+//   display: inline-block;
+//   animation: other_link 1.5s ease-in-out infinite;
+// }
+// @keyframes link {
+//   0% {
+//     transform: translateX(0rem);
+//   }
+//   100% {
+//     transform: translateX(0.5rem);
+//   }
+// }

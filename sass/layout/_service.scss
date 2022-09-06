@@ -1,0 +1,10 @@
+.service {
+  background-color: $color-bg;
+  &_primary {
+    margin-bottom: 2rem;
+  }
+  &_card {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

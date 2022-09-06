@@ -1,0 +1,35 @@
+.footer {
+  background-color: $color-bg;
+  &_logo_box {
+    margin-bottom: 24px;
+  }
+  &_left_box {
+    margin-right: 24px;
+    padding-right: 5rem;
+    &_secondary {
+      margin-bottom: 54px;
+    }
+  }
+  &_md ul li {
+    color: $color-secondary;
+    line-height: 30px;
+    list-style-type: none;
+  }
+  &_right_box {
+    padding-right: 4rem;
+  }
+}
+
+#input1 {
+  background-color: navajowhite;
+  @include outline-none;
+}
+
+#input2 {
+  background-color: lawngreen;
+  @include outline-none;
+  @include respond(tab-port) {
+    padding: 1rem 0;
+    background-color: lightblue;
+  }
+}

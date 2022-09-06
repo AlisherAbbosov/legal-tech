@@ -1,0 +1,43 @@
+.news {
+  position: relative;
+  background-color: $color-bg;
+  &_span_box {
+    justify-content: start;
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+  &_text {
+    display: flex;
+    margin: 4rem 0;
+  }
+  &_primary {
+    margin-right: 0;
+  }
+  &_secondary {
+    padding-right: 0;
+    line-height: 1.2rem;
+  }
+  &_image {
+    width: 100%;
+    height: 100%;
+    // background-position: center;
+    background-size: contain;
+  }
+  &_boxes {
+    background-color: $color-box;
+  }
+  &_box {
+    padding: 1.2rem 0.9rem;
+  }
+}
+.span {
+  background-color: $color-official;
+  margin: 0 0.9rem;
+  height: 5rem;
+  width: 2px;
+}
+
+.news_link_box {
+  text-align: center;
+  margin-top: 3.2rem;
+}

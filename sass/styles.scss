@@ -1,0 +1,44 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/base";
+
+@import "components/navbar";
+@import "components/buttons";
+@import "components/inputs";
+
+@import "pages/home";
+
+@import "typography/typography";
+
+@import "layout/header";
+@import "layout/about";
+@import "layout/solution";
+@import "layout/news";
+@import "layout/questions";
+@import "layout/work";
+@import "layout/lawyers";
+@import "layout/service";
+@import "layout/footer";
+@import "layout/other";
+@import "layout/question";
+
+@import "responsivenes/pages/responsiveHome";
+
+@import "responsivenes/components/responsiveNavbar";
+@import "responsivenes/components/responsiveButtons";
+@import "responsivenes/components/responsiveInputs";
+
+@import "responsivenes/typography/responsiveTypography";
+
+@import "responsivenes/layout/responsiveHeader";
+@import "responsivenes/layout/responsiveAbout";
+@import "responsivenes/layout/responsiveSolution";
+@import "responsivenes/layout/responsiveNews";
+@import "responsivenes/layout/responsiveQuestions";
+@import "responsivenes/layout/responsiveWork";
+@import "responsivenes/layout/responsiveLawyers";
+@import "responsivenes/layout/responsiveService";
+@import "responsivenes/layout/responsiveOther";
+@import "responsivenes/layout/responsiveQuestion";
+@import "responsivenes/layout/responsiveFooter";

@@ -1,0 +1,64 @@
+.lawyers {
+  background-color: $color-bg;
+  &_card {
+    margin: 0.5rem;
+  }
+  &_top {
+    display: flex;
+    margin-bottom: 82px;
+  }
+  &_primary {
+    margin: 15px 73px 0;
+  }
+  &_span_box {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+  &_carousel {
+    &_box {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+.card {
+  &-body_top {
+    margin-bottom: 10px;
+  }
+  &-star {
+    margin: -5px 0 0 11px;
+  }
+}
+
+.carousel-control {
+  padding: 18px;
+  border-radius: 50%;
+  background-color: rgba(1, 18, 252, 0.952);
+  border: 1px solid black;
+  animation: arrow 1s ease-in-out infinite alternate;
+  &_right {
+    padding: 18px;
+    border-radius: 50%;
+    background-color: rgba(1, 18, 252, 0.952);
+    border: 1px solid black;
+    animation: arrow 1s ease-in-out infinite alternate;
+  }
+}
+@keyframes carousel-control {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.3rem);
+  }
+}
+@keyframes carousel-control-right {
+  0% {
+    transform: translateY(0rem);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}

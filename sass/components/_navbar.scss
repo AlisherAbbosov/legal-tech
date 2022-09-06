@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 1.1rem 6rem;
+  &_text {
+    flex-wrap: nowrap;
+  }
+  &_logo {
+    margin-right: 0.5rem;
+  }
+  &_avatar {
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  &_box {
+    &:focus {
+      border: none;
+      box-shadow: none;
+    }
+  }
+}

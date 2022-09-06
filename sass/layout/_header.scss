@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  background-image: linear-gradient(
+      to top,
+      #1c1b1e 2.87%,
+      #1c1b1ea8 118.73%,
+      #1c1b1ecf 90.79%
+    ),
+    url("/sass/images/header.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  &_image {
+    width: 19rem;
+    height: 28rem;
+  }
+  &_wrap {
+    position: absolute;
+    top: 12rem;
+    left: 13rem;
+    padding: 0 30rem 0 0;
+  }
+  &_span {
+    background-color: $color-official;
+    margin: 0 0.7rem;
+    height: 5rem;
+    width: 3px;
+    &_box {
+      position: absolute;
+      display: flex;
+      top: 39rem;
+    }
+  }
+}

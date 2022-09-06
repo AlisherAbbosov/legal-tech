@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1087px) {
+  .navbar {
+    padding: 1.1rem 4rem;
+    &_text {
+      flex-wrap: nowrap;
+    }
+    &_logo {
+      margin-right: 0.5rem;
+    }
+    &_avatar {
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    padding: 0.5rem 2rem;
+    &_text {
+      flex-wrap: nowrap;
+    }
+    &_logo {
+      margin-right: 0.5rem;
+      height: 2.8rem;
+    }
+    &_avatar {
+      border: 1px solid #fff;
+      margin-top: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 0.4rem 1rem;
+    &_logo {
+      margin-right: 0.5rem;
+      height: 2.4rem;
+    }
+    &_avatar {
+      border: 1px solid #fff;
+      margin-top: 1rem;
+    }
+  }
+}

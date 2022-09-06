@@ -1,0 +1,57 @@
+.work {
+  &_wrap {
+    position: relative;
+  }
+  background-color: $color-bg;
+  &_boxes {
+    padding: 120px 70px;
+    border: 10px solid rgba(176, 142, 68, 0.1);
+    &_2 {
+      margin-top: 7.8rem;
+      display: flex;
+      padding: 10px 70px 200px;
+      align-items: start;
+    }
+    &_box {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    &_group {
+      height: 170px;
+      width: 170px;
+      background-color: white;
+      padding: 47px;
+      border-radius: 50%;
+      box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5),
+        inset -5px -5px 20px rgba(0, 0, 0, 0.5);
+      &_2 {
+        height: 170px;
+        width: 170px;
+        background-color: white;
+        padding: 47px;
+        border-radius: 50%;
+        box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5),
+          inset -5px -5px 20px rgba(0, 0, 0, 0.5);
+      }
+      &_3 {
+        height: 170px;
+        width: 170px;
+        background-color: white;
+        padding: 47px;
+        border-radius: 50%;
+        box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5),
+          inset -5px -5px 20px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  &_primary {
+    text-align: center;
+  }
+  &_secondary {
+    position: absolute;
+    top: 2.5rem;
+    padding: 0 10rem;
+    text-align: center;
+  }
+}
